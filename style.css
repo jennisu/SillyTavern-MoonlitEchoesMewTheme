@@ -1046,6 +1046,12 @@ body.movingUI ::-webkit-scrollbar-thumb:vertical {
             content: "›";
         }
 
+        .fa-solid::before,
+        .fa-regular::before {
+            vertical-align: -2.5px;
+            text-align: center;
+        }
+
         /* Swipe Message Button Position 滑動訊息按鈕位置 */
         .swipe_left,
         .swipe_right {
