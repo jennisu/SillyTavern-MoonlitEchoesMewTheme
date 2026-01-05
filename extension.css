@@ -160,7 +160,6 @@ body.waifuMode:has(#extensionTopBar) {
         /*top: var(--topBarBlockSize) !important;*/
         top: calc(var(--topBarBlockSize) + 10px) !important;
         width: 97% !important;
-        margin-bottom: 10px !important;
         /*border-radius: 0 !important;*/
         opacity: 0.8;
         /*border: none !important;*/
@@ -245,8 +244,7 @@ body.waifuMode:has(#extensionConnectionProfiles.visible) #extensionTopBar {
         border: none !important;
         /*border-bottom: 1px solid color-mix(in srgb, var(--SmartThemeBodyColor) 25%, transparent) !important;*/
         margin-left: 0;
-        margin-top: 10px !important;
-        margin-bottom: 10px !important;
+        margin-top: 0px !important;
         opacity: 0.65;
     }
 }
