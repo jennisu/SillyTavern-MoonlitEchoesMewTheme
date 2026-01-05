@@ -241,7 +241,7 @@ body.waifuMode:has(#extensionConnectionProfiles.visible) #extensionTopBar {
     @media (max-width: 1000px) {
         width: 97% !important;
         /*border-radius: 0 !important;*/
-        border: none !important;
+        /*border: none !important;*/
         /*border-bottom: 1px solid color-mix(in srgb, var(--SmartThemeBodyColor) 25%, transparent) !important;*/
         margin-left: 0;
         margin-top: 0px !important;
